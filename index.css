@@ -1,0 +1,33 @@
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    max-width: 30%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px 0;
+    -webkit-box-shadow: 5px 5px 15px 5px #E3E3E3; 
+box-shadow: 5px 5px 15px 5px #E3E3E3;
+background-color: white;
+}
+.day,.hour,.min,.second {
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+}
+body {
+    background: #355C7D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+text-align: center;
+}
+button {
+    margin: 50px auto;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 8px;
+    border: none
+}
